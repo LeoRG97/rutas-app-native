@@ -1,6 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import Icon from 'react-native-vector-icons/Ionicons';
 import { NavigationContainer } from '@react-navigation/native';
 import Navigator from './src/navigation/Navigator';
 import { PermissionsProvider } from './src/context/PermissionsContext';
@@ -24,6 +22,4 @@ const App = () => {
 };
 
 export default App;
-
-const styles = StyleSheet.create({});
 

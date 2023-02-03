@@ -4,7 +4,9 @@ import React from 'react'
 const MapScreen = () => {
   return (
     <View>
-      <Text>MapScreen</Text>
+      <Text style={{ color: '#000' }}>
+        MapScreen
+      </Text>
     </View>
   )
 }
