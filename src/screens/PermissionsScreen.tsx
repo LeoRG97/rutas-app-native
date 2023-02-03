@@ -1,6 +1,5 @@
-import { View, Text, StyleSheet, Button, Platform, ToastAndroid } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 import React, { useContext } from 'react'
-import { PERMISSIONS, PermissionStatus, request } from 'react-native-permissions';
 import { PermissionsContext } from '../context/PermissionsContext';
 import BlackButton from '../components/BlackButton';
 
