@@ -7,6 +7,7 @@ const Map = () => {
     <>
       <MapView
         provider={PROVIDER_GOOGLE} // remove if not using Google Maps
+        showsUserLocation
         style={{ flex: 1 }}
         region={{
           latitude: 37.78825,
